@@ -1,42 +1,53 @@
 .container {
-  padding: 100px 20px;
+  padding: 100px 50px;
   margin: 0 auto;
 }
 
 .inner {
-  padding: 30px 0;
+  padding: 2rem 0;
 }
 
 .pageTitle {
   margin-bottom: 1rem;
 }
 
+.blogListContainer {
+  margin-bottom: 4rem;
+}
 .ulList {
   width: 100%;
 }
 .listName {
-  margin-bottom: 1.125rem;
   line-height: 1.5;
 }
 
 .listDate {
   color: #666;
   text-align: right;
+  margin-bottom: 2rem;
 }
 
-.listLink {
+.blogTitle {
   color: #0070f3;
   font-size: 1.2rem;
 }
 
-@media screen and (min-width: 961px) {
+.backLink {
+  color: #0070f3;
+}
+
+.blogContainer {
+  margin-bottom: 4rem;
+}
+
+/* @media screen and (min-width: 961px) {
   .container {
     padding-left: 50px;
     padding-right: 50px;
   }
-}
+} */
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 600px) {
   .inner {
     max-width: 600px;
     margin: 0 auto;

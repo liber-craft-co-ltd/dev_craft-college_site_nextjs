@@ -1,27 +1,37 @@
 import dayjs from "dayjs";
-
+import utc from "dayjs/plugin/utc";
+import timezone from "dayjs/plugin/timezone";
 import Layout from "../components/Layout";
 import styles from "../styles/blog.module.css";
 import { client } from "../libs/client";
 import Link from "next/link";
 
 export default function Blog({ blog }) {
+  dayjs.extend(utc);
+  dayjs.extend(timezone);
+  const convertDate = (time) => {
+    return dayjs.utc(time).tz("Asia/Tokyo").format("YYYY-MM-DD");
+  };
   return (
     <Layout>
       <main className={styles.container}>
         <h1 className={styles.pageTitle}>ブログ</h1>
         <div className={styles.inner}>
-          <ul className={styles.ulList}>
-            {blog.map((blog) => (
-              <li key={blog.id} className={styles.listName}>
-                <Link href={`/blog/${blog.id}`}>
-                  <a className={styles.listLink}>{blog.title}</a>
-                </Link>
-                <br />
-                <p className={styles.listDate}>{blog.createdAt}</p>
-              </li>
-            ))}
-          </ul>
+          <div className={styles.blogListContainer}>
+            <ul className={styles.ulList}>
+              {blog.map((blog) => (
+                <li key={blog.id} className={styles.listName}>
+                  <Link href={`/blog/${blog.id}`}>
+                    <a className={styles.blogTitle}>{blog.title}</a>
+                  </Link>
+                  <br />
+                  <p className={styles.listDate}>
+                    {convertDate(blog.createdAt)}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </main>
     </Layout>
