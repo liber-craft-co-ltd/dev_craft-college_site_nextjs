@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 import timezone from "dayjs/plugin/timezone";
@@ -12,6 +13,12 @@ export default function Blog({ blog }) {
   const convertDate = (time) => {
     return dayjs.utc(time).tz("Asia/Tokyo").format("YYYY-MM-DD");
   };
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  }, []);
   return (
     <Layout>
       <main className={styles.container}>

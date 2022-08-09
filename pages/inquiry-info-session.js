@@ -1,5 +1,7 @@
-import Layout from '../components/Layout'
-import { useEffect } from 'react'
+import { useEffect } from "react";
+import Link from "next/link";
+import Layout from "../components/Layout";
+
 export default function InquiryInfoSession() {
   useEffect(() => {
     let scriptEl = document.createElement("script");
@@ -8,13 +10,21 @@ export default function InquiryInfoSession() {
     setTimeout(function () {
       window.TimerexCalendar();
     }, 1000);
-  }, [])
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  }, []);
   return (
     <Layout>
       {/* Google Tag Manager (noscript) */}
       <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS2FGM2"
-          height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-PS2FGM2"
+          height="0"
+          width="0"
+          style={{ display: "none", visibility: "hidden" }}
+        ></iframe>
       </noscript>
       {/* End Google Tåag Manager (noscript) */}
 
@@ -26,9 +36,11 @@ export default function InquiryInfoSession() {
           ></div>
         </section>
         <button type="button" className="button-back-to-top">
-          <a href="/">Craft College TOPページに戻る</a>
+          <Link href="/">
+            <a>Craft College TOPページに戻る</a>
+          </Link>
         </button>
       </main>
     </Layout>
-  )
+  );
 }
