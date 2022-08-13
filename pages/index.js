@@ -994,6 +994,30 @@ export default function Home() {
                     className="icon"
                   />
                 </a>
+                <div className="bookicon-wrapper">
+                  <a
+                    href="https://amzn.to/3I9aisp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/images/10-4_excel-book-icon.jpg"
+                      alt="bookicon1"
+                      width="90px"
+                    />
+                  </a>
+                  <a
+                    href="https://amzn.to/3umVEIk"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/images/10-5_AIdata-book-icon.jpg"
+                      alt="bookicon2"
+                      width="90px"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 
 /* ===== Common ===== */
-html { 
+html {
   scroll-behavior: smooth;
 }
 body {
   color: #333;
   line-height: 1.6;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 0.1em;
 }
 h1 {
@@ -32,21 +32,23 @@ img {
   }
 }
 /* CTAボタン */
-.button-jump-to-inquiry, .cv-button-to-inquiry {
+.button-jump-to-inquiry,
+.cv-button-to-inquiry {
   padding: 10px 25px;
-  color: #E12537;
+  color: #e12537;
   background-color: #fff;
-  border: 2px solid #E12537;
+  border: 2px solid #e12537;
   border-radius: 40px;
 }
-.button-jump-to-inquiry:hover, .cv-button-to-inquiry:hover {
-  background-color: #E12537;
+.button-jump-to-inquiry:hover,
+.cv-button-to-inquiry:hover {
+  background-color: #e12537;
   color: #fff;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 /* Inquiry Area */
 .inquiry-area {
-  background-color: #264B8D;
+  background-color: #264b8d;
   padding: 50px 30px;
   text-align: center;
 }
@@ -61,7 +63,6 @@ img {
     padding: 90px 30px;
   }
 }
-
 
 /* ===== Header ===== */
 #site-header {
@@ -85,8 +86,8 @@ img {
   top: 15px;
   right: 60px;
 }
-#site-header .icon, 
-#site-header .icon::before, 
+#site-header .icon,
+#site-header .icon::before,
 #site-header .icon::after {
   position: absolute;
   top: 0;
@@ -98,7 +99,7 @@ img {
   background-color: #333;
   border-radius: 2px;
   display: block;
-  content: '';
+  content: "";
   cursor: pointer;
   margin: auto;
 }
@@ -122,13 +123,13 @@ img {
   transform: rotate(45deg);
   top: 0;
 }
-#site-header .icon, 
-#site-header .icon:before, 
+#site-header .icon,
+#site-header .icon:before,
 #site-header .icon:after {
-  transition: all .2s;
+  transition: all 0.2s;
 }
 #site-header nav {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   display: none;
 }
 #site-header .nav-toggle:checked ~ nav {
@@ -143,7 +144,7 @@ img {
   text-align: center;
   border-top: solid #333 1px;
 }
-#site-header nav ul li a:hover{
+#site-header nav ul li a:hover {
   color: rgba(0, 0, 0, 0.5);
 }
 #site-header nav ul li:first-child {
@@ -157,7 +158,8 @@ img {
   #site-header .logo-craft-college {
     width: 250px;
   }
-  #site-header .btn-burger, #site-header .nav-toggle {
+  #site-header .btn-burger,
+  #site-header .nav-toggle {
     display: none;
   }
   #site-header nav {
@@ -177,14 +179,14 @@ img {
   #site-header nav .nav-button-jump-to-inquiry {
     padding: 10px 50px;
     color: #fff;
-    border:2px solid #E12537;
-    background-color: #E12537;
+    border: 2px solid #e12537;
+    background-color: #e12537;
     border-radius: 30px;
   }
   #site-header nav .nav-button-jump-to-inquiry:hover {
     background-color: #fff;
-    color: #E12537;
-    transition: all .2s;
+    color: #e12537;
+    transition: all 0.2s;
   }
 }
 
@@ -208,7 +210,7 @@ img {
   margin: 0 15px 10px 0;
   display: table;
   color: #fff;
-  background-color: #264B8D;
+  background-color: #264b8d;
   border-radius: 3px;
   font-size: 14px;
 }
@@ -262,7 +264,7 @@ img {
   font-weight: bold;
 }
 .why-learn .reason .text-area .title span {
-  color: #E12537;
+  color: #e12537;
 }
 .why-learn .text-area .description {
   text-align: left;
@@ -278,7 +280,7 @@ img {
   text-decoration: underline;
 }
 @media screen and (min-width: 1025px) {
-  .why-learn h1{
+  .why-learn h1 {
     margin-top: 70px;
     margin-bottom: 70px;
     font-weight: bold;
@@ -324,7 +326,7 @@ img {
 /* Why learning is hard */
 .why-learning-is-hard {
   padding: 50px 20px;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 .why-learning-is-hard .title .main-title {
   padding: 30px 0 20px;
@@ -340,7 +342,7 @@ img {
   margin: 20px 0;
 }
 .why-learning-is-hard .body-box .reason .title {
-  color: #264B8D;
+  color: #264b8d;
   font-size: 20px;
   font-weight: bold;
 }
@@ -392,7 +394,7 @@ img {
 }
 #features .feature .text-area .number {
   padding: 10px 0 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 36px;
   font-weight: 700;
   color: #fff;
@@ -404,7 +406,7 @@ img {
   font-weight: bold;
 }
 #features .feature .text-area .title span {
-  color: #32A2DB;
+  color: #32a2db;
 }
 #features .feature .text-area .description {
   padding-bottom: 20px;
@@ -417,7 +419,7 @@ img {
   font-weight: bold;
 }
 @media screen and (min-width: 1025px) {
-  #features h1{
+  #features h1 {
     margin-top: 70px;
     font-weight: bold;
   }
@@ -438,7 +440,7 @@ img {
     padding-right: 50px;
     width: 50%;
   }
-  #features .feature .text-area .title{
+  #features .feature .text-area .title {
     font-size: 24px;
   }
   #features .feature figure {
@@ -458,7 +460,7 @@ img {
 /* Curriculum Goal */
 #curriculum-goal {
   padding: 50px 20px;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 #curriculum-goal h2 {
   padding: 20px 0 40px;
@@ -484,7 +486,7 @@ img {
 #curriculum-goal .one-point .point {
   padding: 10px 20px;
   display: inline;
-  background-color: #32A2DB;
+  background-color: #32a2db;
   text-align: center;
   border-radius: 30px;
   color: #fff;
@@ -494,7 +496,7 @@ img {
 #curriculum-goal .one-point .description {
   margin: 20px 0 0;
 }
-#curriculum-goal .one-point{
+#curriculum-goal .one-point {
   width: 90%;
   margin: 0 auto;
   margin-top: 60px;
@@ -506,27 +508,27 @@ img {
     padding-right: 7.5%;
     margin: 0 auto;
   }
-  #curriculum-goal h1{
+  #curriculum-goal h1 {
     font-size: 33px;
     padding-top: 50px;
   }
-  #curriculum-goal h2{
+  #curriculum-goal h2 {
     font-size: 18px;
     padding: 12px 0 60px;
   }
   #curriculum-goal .positions {
     display: flex;
   }
-  #curriculum-goal .position{
+  #curriculum-goal .position {
     font-size: 18px;
     font-weight: 700;
   }
   #curriculum-goal .position-card {
     width: 100%;
   }
-  #curriculum-goal .title{
+  #curriculum-goal .title {
     font-size: 18px;
-    }
+  }
 }
 
 /* Load Map */
@@ -537,7 +539,7 @@ img {
   position: relative;
   padding: 20px 20px;
   margin: 60px 0 0;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   text-align: center;
 }
 .load-map .number {
@@ -545,10 +547,10 @@ img {
   top: -30px;
   left: 30px;
   font-size: 42px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0);
-  text-shadow: 2px 2px 0 rgba(50,162,219,0.5);
+  text-shadow: 2px 2px 0 rgba(50, 162, 219, 0.5);
   -webkit-text-stroke: 0.8px #333;
   text-align: left;
 }
@@ -577,7 +579,7 @@ img {
   }
   .load-map h1 {
     font-size: 33px;
-    padding-top:50px ;
+    padding-top: 50px;
     padding-bottom: 50px;
   }
   .load-map .number {
@@ -610,13 +612,13 @@ img {
   padding: 20px 0 5px 0;
   margin: 0 -10px;
   text-align: center;
-  color: #7F7F7F;
+  color: #7f7f7f;
   font-size: 12px;
 }
 #learning-curriculum .section .left-box .circle {
   width: 20px;
-  height: 20px; 
-  background-color: #264B8D;
+  height: 20px;
+  background-color: #264b8d;
   border-radius: 50%;
   margin: 0 auto;
 }
@@ -629,7 +631,7 @@ img {
 #learning-curriculum .section .left-box .dot-line {
   height: 85%;
   margin-left: 50%;
-  border-left: 2px dashed #264B8D;
+  border-left: 2px dashed #264b8d;
   background-position: top left 0%;
 }
 #learning-curriculum .section .right-box {
@@ -637,7 +639,7 @@ img {
 }
 #learning-curriculum .section .right-box .section-title {
   padding: 20px 20px;
-  color: #264B8D;
+  color: #264b8d;
   font-size: 15px;
   font-weight: bold;
 }
@@ -646,7 +648,7 @@ img {
 }
 #learning-curriculum .section .right-box .description {
   padding: 20px;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   font-size: 15px;
 }
 #learning-curriculum .section .right-box .description .content-list {
@@ -671,8 +673,8 @@ img {
   background-position: left 0% top 10%;
   background-size: 30px;
 }
-#learning-curriculum .section .right-box  .description .goals span {
-  text-decoration: underline solid rgba(38,75,141,0.5) 3px;
+#learning-curriculum .section .right-box .description .goals span {
+  text-decoration: underline solid rgba(38, 75, 141, 0.5) 3px;
   text-underline-offset: 0.2em;
   font-weight: bold;
 }
@@ -682,7 +684,7 @@ img {
     margin-right: auto;
     width: 80%;
   }
-  #learning-curriculum h1{
+  #learning-curriculum h1 {
     font-size: 33px;
     padding-top: 70px;
     padding-bottom: 50px;
@@ -708,7 +710,7 @@ img {
 /* How to Proceed */
 .how-to-proceed {
   padding: 50px 20px;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 .how-to-proceed .step-title {
   margin-top: 50px;
@@ -726,7 +728,7 @@ img {
 }
 .how-to-proceed .step .description {
   padding: 30px 20px 0 20px;
-  color: rgba(51,51,51,0.8);
+  color: rgba(51, 51, 51, 0.8);
 }
 .how-to-proceed .step .tool-use {
   padding: 20px 20px;
@@ -745,11 +747,11 @@ img {
   font-size: 12px;
 }
 .how-to-proceed .step .tool-use .service .name a {
-  color: #264B8D;
+  color: #264b8d;
   text-decoration: underline;
 }
-.how-to-proceed .step .tool-use .service .name a:hover{
-  color: rgba(38,75,141,0.5);
+.how-to-proceed .step .tool-use .service .name a:hover {
+  color: rgba(38, 75, 141, 0.5);
 }
 .how-to-proceed .arrows-area {
   text-align: center;
@@ -765,7 +767,7 @@ img {
     padding-top: 70px;
     padding-bottom: 50px;
   }
-  .how-to-proceed .step, 
+  .how-to-proceed .step,
   .how-to-proceed .step-title {
     margin-left: 20px;
     margin-right: 20px;
@@ -790,29 +792,29 @@ img {
     width: 10%;
     transform: rotate(0deg);
   }
-  .how-to-proceed .right-box{
+  .how-to-proceed .right-box {
     width: 95%;
     margin: 0 auto;
   }
-  .how-to-proceed .description{
+  .how-to-proceed .description {
     width: 90%;
   }
-  .how-to-proceed .flex-wrapper .description{
+  .how-to-proceed .flex-wrapper .description {
     width: 95%;
     margin: 0 auto;
   }
-  .how-to-proceed .flex-wrapper .tool-use{
+  .how-to-proceed .flex-wrapper .tool-use {
     width: 95%;
     margin: 0 auto;
   }
-  #learning-curriculum{
-  padding-bottom: 180px;
+  #learning-curriculum {
+    padding-bottom: 180px;
   }
 }
 
 /* Price */
 #price {
-  padding: 50px 20px;  
+  padding: 50px 20px;
 }
 #price .course-name {
   padding: 0 10px 30px 10px;
@@ -830,10 +832,10 @@ img {
   padding: 7px 10px;
   min-width: 120px;
   max-width: 100%;
-  color: #32A2DB;
+  color: #32a2db;
   font-size: 16px;
   background: #fff;
-  border: solid 3px #32A2DB;
+  border: solid 3px #32a2db;
   box-sizing: border-box;
   border-radius: 10px;
   left: 2%;
@@ -855,7 +857,7 @@ img {
   left: 50%;
   margin-left: -17px;
   border: 14px solid transparent;
-  border-top: 14px solid #32A2DB;
+  border-top: 14px solid #32a2db;
   z-index: 1;
 }
 #price .table-wrapper {
@@ -866,24 +868,24 @@ img {
   white-space: nowrap;
   font-size: 16px;
 }
-#price table, 
-#price td, 
+#price table,
+#price td,
 #price th {
   margin: 0 auto;
-  border: 2px #7F7F7F solid;
+  border: 2px #7f7f7f solid;
   border-collapse: collapse;
 }
-#price table th:nth-of-type(2), 
+#price table th:nth-of-type(2),
 #price table td:nth-of-type(2) {
-  border-left: 3px #32A2DB solid;
-  border-right: 3px #32A2DB solid;
+  border-left: 3px #32a2db solid;
+  border-right: 3px #32a2db solid;
 }
 #price table thead th:nth-of-type(2) {
-  border-top: 3px #32A2DB solid;
-  border-bottom: 3px #32A2DB solid;
+  border-top: 3px #32a2db solid;
+  border-bottom: 3px #32a2db solid;
 }
 #price table .row4 .craft-college {
-  border-bottom: 3px #32A2DB solid;
+  border-bottom: 3px #32a2db solid;
 }
 #price thead th {
   padding: 15px 0;
@@ -892,8 +894,8 @@ img {
   text-align: center;
 }
 #price thead .craft-college {
-  background-color: #32A2DB;
-  color: #FFF;
+  background-color: #32a2db;
+  color: #fff;
   font-weight: bold;
 }
 #price tbody td {
@@ -902,7 +904,7 @@ img {
   text-align: center;
 }
 #price tbody td span {
-  text-decoration: underline solid #E12537 3px;
+  text-decoration: underline solid #e12537 3px;
   text-underline-offset: 0.2em;
   font-weight: bold;
   font-size: 20px;
@@ -925,7 +927,7 @@ img {
   content: "※";
 }
 @media screen and (min-width: 961px) {
-  #price h1{
+  #price h1 {
     padding-top: 70px;
     font-size: 33px;
   }
@@ -956,7 +958,7 @@ img {
 /* FAQ */
 #faq {
   padding: 50px 20px;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 #faq ul {
   margin: 30px 5px;
@@ -970,7 +972,7 @@ img {
   background-color: #fff;
   font-size: 18px;
 }
-#faq .title, 
+#faq .title,
 #faq .content {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -982,7 +984,7 @@ img {
   display: block;
   color: #333;
 }
-#faq .title::after, 
+#faq .title::after,
 #faq .title::before {
   content: "";
   position: absolute;
@@ -1001,14 +1003,14 @@ img {
   overflow: hidden;
 }
 #faq .content p span {
-  color: #E12537;
+  color: #e12537;
 }
 #faq .content p {
   margin: 0;
   padding: 1em 2em;
   font-size: 0.9em;
   line-height: 1.5;
-  border-top: 1px #7F7F7F solid;
+  border-top: 1px #7f7f7f solid;
 }
 #faq .toggle:checked + .title + .content {
   max-height: 500px;
@@ -1018,17 +1020,17 @@ img {
   transform: rotate(90deg) !important;
 }
 @media screen and (min-width: 961px) {
-  #faq h1{
-  padding-top: 42px;
-  padding-bottom: 42px;
+  #faq h1 {
+    padding-top: 42px;
+    padding-bottom: 42px;
   }
   #faq ul {
     margin: 30px 100px;
   }
-  #faq .title{
+  #faq .title {
     padding: 30px;
   }
-  #faq .title::after, 
+  #faq .title::after,
   #faq .title::before {
     content: "";
     position: absolute;
@@ -1039,14 +1041,14 @@ img {
 
 /* About us */
 .about-us {
-  padding: 50px 20px;  
+  padding: 50px 20px;
 }
 .about-us > .title {
   margin: 0 auto 30px;
   text-align: left;
 }
-.about-us > .about-us-sub-title{
-margin-bottom: 21px;
+.about-us > .about-us-sub-title {
+  margin-bottom: 21px;
 }
 .about-us > .description {
   margin: 0 auto 50px;
@@ -1068,7 +1070,7 @@ margin-bottom: 21px;
   font-size: 16px;
 }
 .about-us .service .description a {
-  color: #264B8D;
+  color: #264b8d;
   text-decoration: underline;
 }
 .about-us .service .description .icon {
@@ -1076,8 +1078,15 @@ margin-bottom: 21px;
   width: 2%;
   vertical-align: middle;
 }
+.about-us .service .description .bookicon-wrapper {
+  width: 100%;
+  padding: 21px;
+}
+.about-us .service .description .bookicon-wrapper img {
+  margin-right: 18px;
+}
 @media screen and (min-width: 961px) {
-  .about-us{
+  .about-us {
     width: 80%;
     margin: 0 auto;
   }
@@ -1094,16 +1103,16 @@ margin-bottom: 21px;
   .about-us .description {
     padding: 36px 24px;
   }
-  .about-us .service .description a:hover{
-    color: rgba(38,75,141,0.5);
+  .about-us .service .description a:hover {
+    color: rgba(38, 75, 141, 0.5);
   }
 }
 
 /* Inquiry Conversion Area */
 #inquiry-conversion-area {
-  background-color: #264B8D;
+  background-color: #264b8d;
   padding: 50px 20px;
-  text-align: center;  
+  text-align: center;
 }
 #inquiry-conversion-area .title {
   margin: 0 0 30px;
@@ -1127,7 +1136,7 @@ margin-bottom: 21px;
 
 /* ===== Footer ===== */
 #site-footer {
-  padding: 50px 20px; 
+  padding: 50px 20px;
   background-color: #333333;
   color: #fff;
 }
@@ -1143,18 +1152,17 @@ margin-bottom: 21px;
   text-align: right;
 }
 @media screen and (min-width: 961px) {
-  #inquiry-conversion-area{
+  #inquiry-conversion-area {
     padding: 90px;
   }
   #site-footer ul {
     display: flex;
     justify-content: center;
-  } 
-  #site-footer li+li {
+  }
+  #site-footer li + li {
     border-left: 1px solid #fff;
   }
 }
-
 
 /* ===== Terms of Use（利用規約ページ） ===== */
 /* ===== Commercial Transactions（特定商取引法に基づく表記） ===== */
@@ -1195,7 +1203,7 @@ margin-bottom: 21px;
 }
 #privacy-policy a {
   font-size: 16px;
-  color: #264B8D;
+  color: #264b8d;
   text-decoration: underline;
 }
 #terms-of-use .enachment-revision-date,
@@ -1205,7 +1213,7 @@ margin-bottom: 21px;
   font-size: 18px;
 }
 @media screen and (min-width: 961px) {
-  #terms-of-use, 
+  #terms-of-use,
   #commercial-transactions,
   #privacy-policy {
     padding-left: 50px;
@@ -1230,11 +1238,11 @@ margin-bottom: 21px;
 #inquiry-info-session .button-back-to-top {
   padding: 10px 25px;
   background-color: #cccccc;
-  border:2px solid #cccccc;
+  border: 2px solid #cccccc;
   border-radius: 40px;
 }
 #inquiry-info-session .button-back-to-top:hover {
   background-color: #fff;
   border: 2px solid #333;
-  transition: all .2s;
+  transition: all 0.2s;
 }
