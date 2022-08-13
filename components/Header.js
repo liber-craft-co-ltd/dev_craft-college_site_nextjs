@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Link as Scroll } from "react-scroll";
 
 const Header = ({ showNav = false }) => {
@@ -8,16 +7,10 @@ const Header = ({ showNav = false }) => {
       <h1 className="logo-craft-college">
         <Link href="/">
           <a>
-            <div
-              style={{ position: "relative", width: "100%", height: "52.25px" }}
-            >
-              <Image
-                src="/images/1_craft_college_logo.png"
-                alt="Craft College Logo"
-                layout="fill"
-                objectFit="contain"
-              />
-            </div>
+            <img
+              src="/images/1_craft_college_logo.png"
+              alt="Craft College（クラフトカレッジ）"
+            />
           </a>
         </Link>
       </h1>
