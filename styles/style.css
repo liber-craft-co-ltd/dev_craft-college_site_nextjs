@@ -2,9 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 
 /* ===== Common ===== */
-html {
-  scroll-behavior: smooth;
-}
 body {
   color: #333;
   line-height: 1.6;

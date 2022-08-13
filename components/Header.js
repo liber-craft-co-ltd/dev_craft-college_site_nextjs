@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Link as Scroll } from "react-scroll";
 
 const Header = ({ showNav = false }) => {
   return (
@@ -34,19 +35,29 @@ const Header = ({ showNav = false }) => {
           <nav>
             <ul>
               <li>
-                <a href="#features">サービス特徴</a>
+                <Scroll href="" to="features" smooth={true}>
+                  サービス特徴
+                </Scroll>
               </li>
               <li>
-                <a href="#curriculum-goal">到達目標</a>
+                <Scroll href="" to="curriculum-goal" smooth={true}>
+                  到達目標
+                </Scroll>
               </li>
               <li>
-                <a href="#learning-curriculum">学習カリキュラム</a>
+                <Scroll href="" to="learning-curriculum" smooth={true}>
+                  学習カリキュラム
+                </Scroll>
               </li>
               <li>
-                <a href="#price">料金</a>
+                <Scroll href="price" to="price" smooth={true}>
+                  料金
+                </Scroll>
               </li>
               <li>
-                <a href="#faq">FAQ</a>
+                <Scroll href="" to="faq" smooth={true}>
+                  FAQ
+                </Scroll>
               </li>
               <li>
                 <Link href="/blog">

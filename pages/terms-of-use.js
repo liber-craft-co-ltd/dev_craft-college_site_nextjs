@@ -1,13 +1,6 @@
-import { useEffect } from "react";
 import Layout from "../components/Layout";
 
 export default function TermOfUse() {
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "instant",
-    });
-  }, []);
   return (
     <Layout>
       <main id="terms-of-use">

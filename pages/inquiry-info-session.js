@@ -10,10 +10,6 @@ export default function InquiryInfoSession() {
     setTimeout(function () {
       window.TimerexCalendar();
     }, 1000);
-    window.scrollTo({
-      top: 0,
-      behavior: "instant",
-    });
   }, []);
   return (
     <Layout>

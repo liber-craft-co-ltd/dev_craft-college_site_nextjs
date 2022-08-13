@@ -1,13 +1,6 @@
 import Layout from "../components/Layout";
-import { useEffect } from "react";
 
 export default function CommercialTransactions() {
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "instant",
-    });
-  }, []);
   return (
     <Layout>
       <main id="commercial-transactions">
