@@ -1,10 +1,11 @@
 import Layout from "../components/Layout";
+import styles from "../styles/termsOfUse.module.css";
 
 export default function TermOfUse() {
   return (
     <Layout>
       <main id="terms-of-use">
-        <h1>利用規約</h1>
+        <h1 className={styles.title}>利用規約</h1>
         <div className="content">
           この利用規約(以下、「本規約」といいます。)は、本サービス(本サイトを含むものとし、以下、特に両者を区別しません。)の利用条件を定めるものです。本規約は、本サービスを利用するすべてのユーザーに適用されます。
         </div>

@@ -1,10 +1,11 @@
 import Layout from "../components/Layout";
+import styles from "../styles/privacyPolicy.module.css";
 
 export default function CommercialTransactions() {
   return (
     <Layout>
       <main id="privacy-policy">
-        <h1>プライバシーポリシー</h1>
+        <h1 className={styles.title}>プライバシーポリシー</h1>
         <h2>お客様から取得する情報</h2>
         <div className="content">
           当社は、お客様から以下の情報を取得します。

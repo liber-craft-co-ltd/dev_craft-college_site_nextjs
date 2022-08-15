@@ -1,0 +1,75 @@
+.whyLearn_title,
+.features_title,
+.curriculumGoal_title,
+.loadMap_title,
+.learningCurriculum_title,
+.howToProceed_title,
+.price_title,
+.faq_title,
+.aboutUs_title,
+.inquiryConversionArea_title {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.aboutUs_title {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.inquiryConversionArea_title {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.whyLearningIsHard_title {
+  padding: 30px 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+  .whyLearn_title,
+  .features_title,
+  .curriculumGoal_title,
+  .loadMap_title,
+  .learningCurriculum_title,
+  .howToProceed_title,
+  .price_title,
+  .faq_title,
+  .aboutUs_title,
+  .inquiryConversionArea_title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  .whyLearningIsHard_title {
+    font-size: 25px;
+  }
+  .curriculumGoal_title,
+  .loadMap_title,
+  .learningCurriculum_title,
+  .howToProceed_title,
+  .price_title {
+    font-size: 33px;
+    padding-top: 50px;
+  }
+  .faq_title {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .whyLearn_title {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-weight: bold;
+  }
+  .features_title {
+    margin-top: 70px;
+    font-weight: bold;
+  }
+}

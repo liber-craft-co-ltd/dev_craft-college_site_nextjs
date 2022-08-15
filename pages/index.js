@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
+import styles from "../styles/index.module.css";
 export default function Home() {
   return (
     <Layout showNav>
@@ -28,7 +29,9 @@ export default function Home() {
           </div>
         </section>
         <section className="why-learn">
-          <h1>なぜ今、AI・データサイエンスを学ぶべきか？</h1>
+          <h1 className={styles.whyLearn_title}>
+            なぜ今、AI・データサイエンスを学ぶべきか？
+          </h1>
 
           <div className="reason reason-first">
             <div className="text-area">
@@ -84,8 +87,8 @@ export default function Home() {
           </div>
         </section>
         <section className="why-learning-is-hard">
-          <div className="title">
-            <h1 className="main-title">
+          <div>
+            <h1 className={styles.whyLearningIsHard_title}>
               AI・データサイエンスの
               <br className="sp-br" />
               学習が大変な理由
@@ -138,7 +141,7 @@ export default function Home() {
 
         <section id="features">
           <div className="title-box">
-            <h1>
+            <h1 className={styles.features_title}>
               CraftCollegeの
               <br className="sp-br" />
               サービスの特徴
@@ -252,7 +255,7 @@ export default function Home() {
         </section>
 
         <section id="curriculum-goal">
-          <h1>到達目標</h1>
+          <h1 className={styles.curriculumGoal_title}>到達目標</h1>
           <h2>
             未経験から「AI・データ活用人材の」就職エントリーレベルへの到達を目標とします
           </h2>
@@ -297,7 +300,7 @@ export default function Home() {
         </section>
 
         <section className="load-map">
-          <h1>
+          <h1 className={styles.loadMap_title}>
             Craft Collogeの
             <br className="sp-br" />
             ロードマップ
@@ -360,7 +363,7 @@ export default function Home() {
         </section>
 
         <section id="learning-curriculum">
-          <h1>学習カリキュラム</h1>
+          <h1 className={styles.learningCurriculum_title}>学習カリキュラム</h1>
 
           <div className="section">
             <div className="left-box">
@@ -534,7 +537,7 @@ export default function Home() {
         </section>
 
         <section className="how-to-proceed">
-          <h1>
+          <h1 className={styles.howToProceed_title}>
             Section1〜3の、
             <br className="sp-br" />
             それぞれの演習課題の進め方
@@ -689,7 +692,7 @@ export default function Home() {
         </section>
 
         <section id="price">
-          <h1>料金</h1>
+          <h1 className={styles.price_title}>料金</h1>
           <div className="comment-wrapper">
             <div className="comment">業界最高水準のコストパフォーマンス</div>
           </div>
@@ -802,7 +805,7 @@ export default function Home() {
         </section>
 
         <section id="faq">
-          <h1>よくある質問（FAQ）</h1>
+          <h1 className={styles.faq_title}>よくある質問（FAQ）</h1>
           <ul>
             <li>
               <input type="checkbox" id="toggle01" className="toggle" />
@@ -942,7 +945,7 @@ export default function Home() {
         </section>
 
         <section className="about-us">
-          <h1 className="title">運営会社のご紹介</h1>
+          <h1 className={styles.aboutUs_title}>運営会社のご紹介</h1>
           <div className="about-us-sub-title">
             クラフトカレッジ運営の他に、AI・データサイエンスを用いたコンサルティング・受託開発支援や、書籍の執筆を行っております。
           </div>
@@ -1024,7 +1027,7 @@ export default function Home() {
         </section>
 
         <section id="inquiry-conversion-area">
-          <h1 className="title">
+          <h1 className={styles.inquiryConversionArea_title}>
             無料説明会に
             <br className="sp-br" />
             参加申し込みをする

@@ -1,10 +1,11 @@
 import Layout from "../components/Layout";
+import styles from "../styles/commercialTransactions.module.css";
 
 export default function CommercialTransactions() {
   return (
     <Layout>
       <main id="commercial-transactions">
-        <h1>特定商取引法に基づく表示</h1>
+        <h1 className={styles.title}>特定商取引法に基づく表示</h1>
         <h2>事業者の名称</h2>
         <div className="content">株式会社リベルクラフト</div>
         <h2>事業責任者の氏名</h2>
