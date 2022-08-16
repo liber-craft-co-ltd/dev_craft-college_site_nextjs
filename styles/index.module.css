@@ -1,13 +1,4 @@
-.whyLearn_title,
-.features_title,
-.curriculumGoal_title,
-.loadMap_title,
-.learningCurriculum_title,
-.howToProceed_title,
-.price_title,
-.faq_title,
-.aboutUs_title,
-.inquiryConversionArea_title {
+.section_title {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
@@ -30,16 +21,7 @@
 }
 
 @media screen and (min-width: 600px) {
-  .whyLearn_title,
-  .features_title,
-  .curriculumGoal_title,
-  .loadMap_title,
-  .learningCurriculum_title,
-  .howToProceed_title,
-  .price_title,
-  .faq_title,
-  .aboutUs_title,
-  .inquiryConversionArea_title {
+  .section_title {
     font-size: 30px;
   }
 }

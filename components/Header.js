@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { Link as Scroll } from "react-scroll";
+import styles from "../styles/header.module.css";
 
 const Header = ({ showNav = false }) => {
   return (
     <header id="site-header">
-      <h1 className="logo-craft-college">
+      <h1 className={`${styles.logo_title} logo-craft-college`}>
         <Link href="/">
           <a>
             <img
