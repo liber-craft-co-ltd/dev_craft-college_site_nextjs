@@ -33,3 +33,6 @@ API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXX
 Netlifyへデプロイする場合は、Netlifyの環境変数にも同様の内容を設定する。（[参考](https://blog.microcms.io/nuxt-microcms-netlify-portfolio/)）
 
 ## Netlifyへのデプロイ
+mainブランチにpushを行うと、自動的にNetlifyで再ビルドが走り、本番環境に最新のコミットが反映される。
+
+
