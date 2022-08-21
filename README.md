@@ -17,7 +17,7 @@ npm run dev
 ```
 
 SSGされたサイト(本番環境と同様のサイト)の動作確認をしたい場合は、下記コマンドを実行する。
-実行後、http://localhost:3000にアクセスすると、SSGされたLP画面が表示される。
+実行後、http://localhost:3000 にアクセスすると、SSGされたLP画面が表示される。
 ```
 npm run serve
 ```
