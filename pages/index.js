@@ -29,7 +29,7 @@ export default function Home() {
           </div>
         </section>
         <section className="why-learn">
-          <h1 className={`${styles.whyLearn_title} ${styles.section_title}`}>
+          <h1 className={`${styles.whyLearn_title} heading_1`}>
             なぜ今、AI・データサイエンスを学ぶべきか？
           </h1>
 
@@ -88,7 +88,7 @@ export default function Home() {
         </section>
         <section className="why-learning-is-hard">
           <div>
-            <h1 className={styles.whyLearningIsHard_title}>
+            <h1 className={`heading_1 ${styles.whyLearningIsHard_title}`}>
               AI・データサイエンスの
               <br className="sp-br" />
               学習が大変な理由
@@ -141,7 +141,7 @@ export default function Home() {
 
         <section id="features">
           <div className="title-box">
-            <h1 className={`${styles.features_title} ${styles.section_title}`}>
+            <h1 className={`${styles.features_title} heading_1`}>
               CraftCollegeの
               <br className="sp-br" />
               サービスの特徴
@@ -255,9 +255,7 @@ export default function Home() {
         </section>
 
         <section id="curriculum-goal">
-          <h1
-            className={`${styles.curriculumGoal_title} ${styles.section_title}`}
-          >
+          <h1 className={`${styles.curriculumGoal_title} heading_1`}>
             到達目標
           </h1>
           <h2>
@@ -304,7 +302,7 @@ export default function Home() {
         </section>
 
         <section className="load-map">
-          <h1 className={`${styles.loadMap_title} ${styles.section_title}`}>
+          <h1 className={`${styles.loadMap_title} heading_1`}>
             Craft Collogeの
             <br className="sp-br" />
             ロードマップ
@@ -367,9 +365,7 @@ export default function Home() {
         </section>
 
         <section id="learning-curriculum">
-          <h1
-            className={`${styles.learningCurriculum_title} ${styles.section_title}`}
-          >
+          <h1 className={`${styles.learningCurriculum_title} heading_1`}>
             学習カリキュラム
           </h1>
 
@@ -545,9 +541,7 @@ export default function Home() {
         </section>
 
         <section className="how-to-proceed">
-          <h1
-            className={`${styles.howToProceed_title} ${styles.section_title}`}
-          >
+          <h1 className={`${styles.howToProceed_title} heading_1`}>
             Section1〜3の、
             <br className="sp-br" />
             それぞれの演習課題の進め方
@@ -702,9 +696,7 @@ export default function Home() {
         </section>
 
         <section id="price">
-          <h1 className={`${styles.price_title} ${styles.section_title}`}>
-            料金
-          </h1>
+          <h1 className={`${styles.price_title} heading_1`}>料金</h1>
           <div className="comment-wrapper">
             <div className="comment">業界最高水準のコストパフォーマンス</div>
           </div>
@@ -817,7 +809,7 @@ export default function Home() {
         </section>
 
         <section id="faq">
-          <h1 className={`${styles.faq_title} ${styles.section_title}`}>
+          <h1 className={`${styles.faq_title} heading_1`}>
             よくある質問（FAQ）
           </h1>
           <ul>
@@ -959,7 +951,7 @@ export default function Home() {
         </section>
 
         <section className="about-us">
-          <h1 className={`${styles.aboutUs_title} ${styles.section_title}`}>
+          <h1 className={`${styles.aboutUs_title} heading_1`}>
             運営会社のご紹介
           </h1>
           <div className="about-us-sub-title">
@@ -1043,9 +1035,7 @@ export default function Home() {
         </section>
 
         <section id="inquiry-conversion-area">
-          <h1
-            className={`${styles.inquiryConversionArea_title} ${styles.section_title}`}
-          >
+          <h1 className={`${styles.inquiryConversionArea_title} heading_1`}>
             無料説明会に
             <br className="sp-br" />
             参加申し込みをする

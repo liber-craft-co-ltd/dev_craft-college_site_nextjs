@@ -16,7 +16,7 @@ export default function BlogId({ blog }) {
     <Layout>
       <main className={styles.container}>
         <div className={styles.inner}>
-          <h1 className={styles.pageTitle}>{blog.title}</h1>
+          <h1 className={`heading_1 {styles.pageTitle}`}>{blog.title}</h1>
           <p className={styles.listDate}>{convertDate(blog.createdAt)}</p>
           <div
             className={styles.blogContainer}

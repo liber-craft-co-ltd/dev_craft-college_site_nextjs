@@ -8,11 +8,6 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 0.1em;
 }
-h1 {
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-}
 h2 {
   text-align: center;
 }
@@ -20,11 +15,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* h1 */
+.heading_1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
 @media screen and (min-width: 600px) {
   .sp-br {
     display: none;
   }
-  h1 {
+  .heading_1 {
     font-size: 30px;
   }
 }
@@ -1242,4 +1243,9 @@ img {
   background-color: #fff;
   border: 2px solid #333;
   transition: all 0.2s;
+}
+
+/* ===== ユーティリティクラス ===== */
+.pb-20 {
+  padding-bottom: 20px;
 }

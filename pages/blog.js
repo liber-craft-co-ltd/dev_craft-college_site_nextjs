@@ -15,7 +15,7 @@ export default function Blog({ blog }) {
   return (
     <Layout>
       <main className={styles.container}>
-        <h1 className={styles.pageTitle}>ブログ</h1>
+        <h1 className={`heading_1 {styles.pageTitle}`}>ブログ</h1>
         <div className={styles.inner}>
           <div className={styles.blogListContainer}>
             <ul className={styles.ulList}>
