@@ -32,7 +32,47 @@ API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 Netlifyへデプロイする場合は、Netlifyの環境変数にも同様の内容を設定する。（[参考](https://blog.microcms.io/nuxt-microcms-netlify-portfolio/)）
 
+
 ## Netlifyへのデプロイ
 mainブランチにpushを行うと、自動的にNetlifyで再ビルドが走り、本番環境に最新のコミットが反映される。
+
++ /pages
+    + /posts
+        + .check-list.md
+        + .directory-list.md
++ /css
+    + .main.css
++ /preview
+    + .check-list.html
+    + .directory-list.html
++ /static
+
+
+## フォルダ構成
+### pages
+pages配下のファイルが、そのままURLのパスとなる。
++ /pages
+    + _app.js
+      + 全ページ共通の処理を記載する。グローバルCSSなどを読み込んでいる。
+    + blog.js
+      + ブログ一覧画面
+    + commercial-transactions.js
+      + 特定商取引法画面
+    + index.js
+    　+ LPのトップ画面
+    + inquiry-info-session.js
+      + 面談日程予約画面
+    + privacy-policy.js
+      + プライバシーポリシー画面
+    + terms-of-use.js
+      + 利用規約画面
+    + blog
+      + [id].js
+        + ブログの記事詳細画面。SSGのときはビルド時にmicroCMSから全記事を取得し、全ての記事の画面を動的に生成する。
+          ([Next.js dynamic-routes](https://nextjs.org/docs/routing/dynamic-routes))
+
+
+
+
 
 
