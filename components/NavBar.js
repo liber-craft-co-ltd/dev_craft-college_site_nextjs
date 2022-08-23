@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { Link as Scroll } from "react-scroll";
-import styles from "../styles/header.module.css";
+import styles from "../styles/navBar.module.css";
 
-const Header = ({ showNav = false }) => {
+const NavBar = ({ showNav = false }) => {
   return (
     <header id="site-header">
       <h1 className={`${styles.logo_title} logo-craft-college`}>
@@ -71,4 +71,4 @@ const Header = ({ showNav = false }) => {
   );
 };
 
-export default Header;
+export default NavBar;

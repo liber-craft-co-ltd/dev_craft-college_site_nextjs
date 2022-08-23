@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import NavBar from "../components/NavBar";
 import styles from "../styles/layout.module.css";
 export default function Layout({ children, showNav = false, ...props }) {
   return (
@@ -19,7 +19,7 @@ export default function Layout({ children, showNav = false, ...props }) {
           />
           <link rel="icon" href="/images/craft-college_favicoin.jpg"></link>
         </Head>
-        <Header showNav={showNav} />
+        <NavBar showNav={showNav} />
         {children}
         <div className={styles.footer}>
           <Footer />
