@@ -66,7 +66,7 @@ pages配下のファイルが、そのままURLのパスとなる。
 + /components
     + Footer.js
       + フッター部分のコンポーネントファイル。
-    + Header.js
+    + NavBar.js
       + ヘッダー部分のコンポーネントファイル。
     + Layout.js
       + LPのレイアウトコンポーネント。headタグの設定と、LP全体のレイアウト(ヘッダー、フッター)を記述。全ての画面ファイルでこのレイアウトコンポーネントをimportして利用している。
@@ -77,8 +77,8 @@ cssファイルを格納。拡張子が`.module.css`のCSSファイルは[CSS Mo
 + /styles
     + blog.module.css
       + 全ページ共通の処理を記載する。グローバルCSSなどを読み込んでいる。
-    + header.module.css
-      + LPのヘッダー部分(Header.js)のCSSファイル。
+    + navBar.module.css
+      + LPのヘッダー部分(NavBar.js)のCSSファイル。
     + index.module.css
       + LPのトップ画面のCSSファイル。
     + layout.module.css
